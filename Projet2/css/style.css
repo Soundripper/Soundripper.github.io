@@ -476,6 +476,7 @@ footer{
 
 @media screen and (max-width: 768px){
     main{
+        margin: 0;
         padding: 0px 0px 0px 0px;
     }
     header{
@@ -573,6 +574,7 @@ footer{
         justify-content: flex-start;
         padding : 20px 60px;
         margin: 0;
+        width:100%;
     }
 }
 
