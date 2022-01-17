@@ -111,12 +111,9 @@ form button{
 }
 .filterIcon{
     color: #0065FC;
-    padding: 0 15px 0 17px;
+    padding: 17px 15px 0 17px;
     background-color:#DEEBFF;
     height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-radius: 50px;
     transform: translateX(-13px);
 }
