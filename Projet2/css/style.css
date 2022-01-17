@@ -200,7 +200,7 @@ div.hebTxt>h3, div.hebTxt>h4{
     margin: 4px;
     padding: 0 2px 0 2px;
 }
-div.hebTxt>h5{
+div.hebTxt>.star{
     margin: 4px;
     padding: 6px 2px 0 2px;
 }
@@ -258,7 +258,7 @@ div.hebTxt>h5{
     flex-direction: column;
     margin-left:10px;
 }
-div.popTxt>h3, div.popTxt>h4,div.popTxt>h5{
+div.popTxt>h3, div.popTxt>h4,div.popTxt>.star{
     margin: 4px;
     padding: 0 2px 0 2px;
 }
