@@ -124,9 +124,9 @@ button.filterBtn:hover{
 }
 button.filterBtn:hover .filterIcon {
     transform: translateX(13px);
-}​
-div#filterTitle{
-    text-transform: capitalize;
+}
+h3.filterTitle{
+    text-transform: capitalize !important;
 }
 #infoNombreLogements{
     display: flex;
