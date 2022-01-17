@@ -96,7 +96,7 @@ form button{
     align-items: center;
     justify-content:space-evenly;
 }
-#filters button{
+#filters .filterBtn{
     background-color: white;
     margin-left: 10px;
     height : 50px;
@@ -117,12 +117,12 @@ form button{
     border-radius: 50px;
     transform: translateX(-13px);
 }
-button.filterBtn:hover{
+.filterBtn:hover{
     direction: rtl;
     justify-content: space-evenly;
     cursor: pointer;
 }
-button.filterBtn:hover .filterIcon {
+.filterBtn:hover .filterIcon {
     transform: translateX(13px);
 }
 h3.filterTitle{
