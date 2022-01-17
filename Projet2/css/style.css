@@ -128,7 +128,7 @@ button.filterBtn:hover{
 button.filterBtn:hover .filterIcon {
     transform: translateX(13px);
 }​
-div.filterTitle{
+div#filterTitle{
     text-transform: capitalize;
 }
 #infoNombreLogements{
