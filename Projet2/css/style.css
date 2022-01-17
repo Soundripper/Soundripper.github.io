@@ -109,7 +109,7 @@ form button{
     color: none;
     padding: 12px;
 }
-#filterIcon{
+.filterIcon{
     color: #0065FC;
     padding: 0 15px 0 17px;
     background-color:#DEEBFF;
@@ -125,10 +125,10 @@ button.filterBtn:hover{
     justify-content: space-evenly;
     cursor: pointer;
 }
-button.filterBtn:hover #filterIcon {
+button.filterBtn:hover .filterIcon {
     transform: translateX(13px);
 }​
-div#filterTitle{
+div.filterTitle{
     text-transform: capitalize;
 }
 #infoNombreLogements{
