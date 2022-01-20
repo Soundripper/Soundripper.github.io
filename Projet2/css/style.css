@@ -256,9 +256,14 @@ div.hebTxt>.star{
     flex-direction: column;
     margin-left:10px;
 }
-div.popTxt>h3, div.popTxt>h4,div.popTxt>.star{
+div.popTxt>h3, div.popTxt>h4{
     margin: 4px;
     padding: 0 2px 0 2px;
+}
+.popTxt>.star{
+    margin-top : auto;
+    margin-left: 3px;
+    margin-bottom: 3px;
 }
 #popItems div span{
     font-size: 12px;
@@ -526,11 +531,11 @@ footer{
         margin: 0;
         height: 650px;
         order: 1;
+        flex:1;
         border-radius: 0;
     }
     .popItems{
         flex-direction: column;
-        height: 500px;
     }
     .popItem{
         width : 95%;
@@ -539,7 +544,6 @@ footer{
         justify-content: flex-start;
     }
     .popTxt{
-        align-self: center;
     }
     
     #activities{
