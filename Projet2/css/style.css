@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
+    font-size: medium;
     overflow-x: hidden;
 }
 main{
@@ -204,9 +205,6 @@ div.hebTxt>.star{
     margin: 4px;
     padding: 6px 2px 0 2px;
 }
-#hebItems div span{
-    font-size: 12px;
-}
 #hebPlus{
     position:relative;
     bottom: 20px;
@@ -250,10 +248,10 @@ div.hebTxt>.star{
     width:200px;
 }
 .popTxt{
-    flex:2;
+    flex:1.8;
     display:flex;
     flex-direction: column;
-    margin-left:10px;
+    margin-left:3px;
 }
 div.popTxt>h3, div.popTxt>h4{
     margin: 4px;
@@ -263,9 +261,6 @@ div.popTxt>h3, div.popTxt>h4{
     margin-top : auto;
     margin-left: 3px;
     margin-bottom: 3px;
-}
-#popItems div span{
-    font-size: 12px;
 }
 /***************************** ACTIVITIES *****************************/
 #activities{
